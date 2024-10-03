@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAppXamarin", "ToDoAppXamarin\ToDoAppXamarin.csproj", "{66C1FB78-6042-4199-A6E3-F06FC70CD8EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C1FB78-6042-4199-A6E3-F06FC70CD8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C1FB78-6042-4199-A6E3-F06FC70CD8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C1FB78-6042-4199-A6E3-F06FC70CD8EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{66C1FB78-6042-4199-A6E3-F06FC70CD8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C1FB78-6042-4199-A6E3-F06FC70CD8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C1FB78-6042-4199-A6E3-F06FC70CD8EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CA7A0D4-3786-4882-891F-640865ADF6E9}
+	EndGlobalSection
+EndGlobal

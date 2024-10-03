@@ -1,0 +1,37 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoAppXamarin.Views.TaskPage"
+             Title="Task Details">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <!-- Title Entry -->
+            <Entry x:Name="titleEntry" Placeholder="Title" Text="{Binding Title}" />
+
+            <!-- Description Editor -->
+            <Editor x:Name="descriptionEditor" Placeholder="Description" HeightRequest="100" Text="{Binding Description}" />
+
+            <!-- Due Date Picker -->
+            <DatePicker x:Name="dueDatePicker" Date="{Binding DueDate}" />
+
+            <!-- Priority Picker -->
+            <Picker x:Name="priorityPicker" Title="Priority">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Low</x:String>
+                        <x:String>Medium</x:String>
+                        <x:String>High</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <!-- Completion Status Switch -->
+            <Switch x:Name="isCompletedSwitch" IsToggled="{Binding IsCompleted}" />
+
+            <!-- Save Button -->
+            <Button Text="Save" Clicked="OnSaveClicked" />
+
+            <!-- Delete Button -->
+            <Button Text="Delete" Clicked="OnDeleteClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
